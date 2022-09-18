@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Coursera Project</title>
+    <style>
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;}
+        
+body {
+	margin: auto 5px;}
+
+.coursera {
+	width: 100%;
+           }
+
+h1 {
+    font-family: cursive;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+        
+section {
+	box-sizing: auto;
+	position: relative;
+	margin: 10px;
+	border: 1px solid;
+	background-color: darkgray;
+}
+        
+p.text{
+    font-family: monospace;
+    font-size: 20px;
+	position : absolute;
+	top: 0px;
+	right: 0px;
+	width: 30%;
+	border: 1px solid;
+	text-align: center;
+}
+        
+#html {
+        background-color: cornflowerblue; }
+        
+#css {
+        background-color: cadetblue; }
+        
+#javascript {
+        background-color: coral; }
+
+p.article {
+    font-family: monospace;
+    font-size: 15px;
+	margin-top: 15px;
+	padding : 15px;
+}
+  
+        @media (min-width: 992px) {
+	.col-lg-4 {
+		float: left;
+		width: 33.33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6, .col-md-12 {
+		float: left;
+	}
+
+	.col-md-6 {
+		width: 50%;
+	}
+
+	.col-md-12 {
+		width: 100%;
+	}
+}
+
+/** Mobile view **/
+@media (max-width: 767px) {
+	.col-sm-12 {
+		width: 100%;
+		float: left;
+	}
+}
+        
+</style>
+</head>
+<body>
+    
+             <h1>WEB DEVELOPMENT INFORMATION</h1>
+<div id="coursera">
+
+        <div class="col-lg-4 col-md-6 col-sm-12"><section>
+            <p class="text" id="html">HTML5</p>
+            <p class="article">HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and final major HTML version that is a World Wide Web Consortium (W3C) recommendation. The current specification is known as the HTML Living Standard. It is maintained by the Web Hypertext Application Technology Working Group (WHATWG), a consortium of the major browser vendors (Apple, Google, Mozilla, and Microsoft).</p>
+            </section></div>
+            
+        <div class="col-lg-4 col-md-6 col-sm-12"><section>
+            <p class="text" id="css">CSS3</p>
+            <p class="article">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+            </section></div>
+                
+        <div class="col-lg-4 col-md-6 col-sm-12"><section>
+            <p class="text" id="javascript">JAVASCRIPT</p>
+            <p class="article">JavaScript often abbreviated to JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.</p>
+            </section></div>
+    
+    </div>
+    
+   
+</body>
+</html>
